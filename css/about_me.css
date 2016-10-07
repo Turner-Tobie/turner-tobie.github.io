@@ -278,3 +278,82 @@
 		width: 40%;
 	}
 }
+body {
+    text-align:center;
+    margin-top:70px;
+}
+* {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+p {
+    margin-top:40px;
+}
+.btn {
+    position:relative;
+    text-decoration:none;
+    font:15px"Source Sans Pro";
+    letter-spacing:1px;
+    text-transform:uppercase;
+    padding:10px;
+    margin:5px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    color:#fff;
+}
+.black {
+    background:black;
+    box-shadow:0px 3px 0px grey;
+}
+.black:hover {
+    background:black;
+    box-shadow:0px 3px 0px grey;
+}
+.black:active {
+    background:black;
+    top:4px;
+    box-shadow:none;
+}
+.strawberry {
+    background:teal;
+    box-shadow:0px 3px 0px lightblue;
+}
+.strawberry:hover {
+    background:teal;
+    box-shadow:0px 3px 0px lightblue;
+}
+.strawberry:active {
+    background:lightblue;
+    box-shadow:none;
+    top:4px;
+}
+
+.grey {
+    background:darkblue;
+    box-shadow:0px 3px 0px lightblue;
+}
+
+.grey:hover {
+	background:lightblue;
+    box-shadow:0px 3px 0px lightblue;
+}
+.grey:active {
+     background:darkblue;
+    box-shadow:none;
+    top:4px;
+}
+.orange {
+    background:#f30156;
+    box-shadow:0px 3px 0px #a10139;
+}
+
+.orange:hover {
+	background:#ff3c81;
+    box-shadow:0px 3px 0px #d2004a;
+}
+.orange:active {
+    background:#ff3c81;
+    box-shadow:0px 3px 0px #d2004a;
+}
