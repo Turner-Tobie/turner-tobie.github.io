@@ -272,7 +272,7 @@
 	}
 	.intro-details > .intro-paragraph{
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
 	.intro-image > .image{
 		width: 40%;
