@@ -10,11 +10,7 @@ jQuery(function($){
 
       // 3. if 'color' is not defined hide/show all elements ("show all" button), if color IS defined show elemtnts that match color variable
       (!color) ? $('.objects li').hide().fadeIn(625)  : $('li[data-type="' + color + '"]').fadeIn(625);
-
-      // classes for nav buttons
       $('.active').removeClass('active'); 
       $(this).addClass('active'); 
-
     });
-
   });
