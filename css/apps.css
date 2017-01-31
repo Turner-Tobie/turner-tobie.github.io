@@ -18,7 +18,7 @@ h1 {
   letter-spacing: -.08em;
   font-weight: bold;
 }
-
+/*Item box and Image Styling Start*/
 .item {
   float: left;
   margin: 0 20px 20px 0;
@@ -38,11 +38,16 @@ img{
   box-shadow: 0 0 10px rgba(0,0,0,.3);
   border: 4px solid rgba(255,255,255,.25);
 }
+/*Item box and Image Styling End*/
+
+/*Pace Holder for li data-type styling*/
 li[data-type=red] {}
 li[data-type=orange] {}
 li[data-type=yellow] {}
 li[data-type=purple] {}
 li[data-type=green] {}
+
+/*Sorting Nav Bar Styling Start*/
 .sort {
   padding: 0;
   float: left;
@@ -72,7 +77,9 @@ li[data-type=green] {}
 .sort li:hover {
   background: rgba(0,0,0,1);
 }
+/*Sorting Nav Bar Styling End*/
 
+/*Span Text Start*/
 span.text-content span {
   display: table-cell;
   text-align: center;
@@ -102,3 +109,4 @@ span.text-content {
   -moz-border-radius: 20px;
   border-radius: 20px; 
 }
+/*Span Text End*/
