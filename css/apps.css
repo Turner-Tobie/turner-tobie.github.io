@@ -91,12 +91,12 @@ ul.img-list li:hover span.text-content {
 }
 span.text-content {
   position: absolute;
-  background: rgba(45, 132, 40,0.5);
+  background: rgba(73,10,61,.5);
   color: white;
   font-size: 30px;
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 154px;
   left: 0;
   top: 0;
   width: 250px;
