@@ -67,7 +67,7 @@
 		width: 100%;
 		border-radius: 50%;
 		margin: 0 auto;
-		border: 5px solid #252439;
+		border: 5px ridge #252439;
 		transition: all .2s ease-in;
 		-webkit-transition: all .2s ease-in;
 		-moz-transition: all .2s ease-in;
