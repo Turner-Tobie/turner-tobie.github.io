@@ -1,7 +1,7 @@
 body {
     padding: 30px; 
 		font-family: "Helvetica Neue", helvetica, arial; 
-		background: url('http://subtlepatterns.com/patterns/dark_fish_skin.png');
+		background: url('http://subtlepatterns.com/patterns/dark_geometric.png');
 	}
 
   body {
@@ -12,7 +12,6 @@ body {
 h1 {
   margin-top: 30px;
   font-size: 35px;
-  margin-bottom: 30px;
   color: rgba(73,10,61,1);
   text-shadow: 0 1px 1px rgba(255,255,255,.5);
   letter-spacing: -.08em;
@@ -28,6 +27,9 @@ h1 {
   list-style: none;  
   border-radius: 25px;
   transition: all .25s ease;
+  -webkit-box-shadow: 2px 4px 10px 5px rgba(7,7,38,1);
+  -moz-box-shadow: 2px 4px 10px 5px rgba(7,7,38,1);
+  box-shadow: 2px 4px 10px 5px rgba(7,7,38,1);
 }
 img{
   width:auto;
@@ -110,3 +112,70 @@ span.text-content {
   border-radius: 20px; 
 }
 /*Span Text End*/
+
+/*NAVBAR Start*/
+.nav h1{
+  float:left;
+  display:inline-block;
+  margin-bottom: 15px;
+  margin-top:15px;
+  font-size:3.6vw;
+  color:black;
+  margin-right:20px; 
+}
+
+.nav ul{
+  height:auto;
+  width:auto;
+  background-color: gray;
+}
+.link-list li{
+  margin-right: 10px;  
+  float: left;
+  font-size: 13px;
+  list-style: none;
+  background: rgba(0,0,0,.8);
+  padding: 4px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgba(73,10,61,1);
+  color: gray;
+  box-shadow: 0 1px 3px rgba(0,0,0,.8);
+  -webkit-transition: background .25s ease;
+  font-size:1.5vw;
+}
+.link-box{
+  min-width:10%;
+  height:auto;
+  margin-top:25px;
+  margin-bottom:15px;
+}
+.drop-box{
+  width:auto;
+  height:auto;
+  margin-top:11px;  
+}
+.link-box a{
+  text-decoration: none;
+  color:gray;
+}
+
+.glass {
+    font-size: 150%;
+    color:#FDFFC1;
+    text-align: center;
+    background: none;
+    position: relative;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    max-width: 100% ;
+    height: 80px;
+    margin-right: auto ;
+    margin-bottom: 50px;
+    padding:8px;
+    -webkit-box-shadow: 2px 7px 25px 5px rgba(7,7,38,1);
+    -moz-box-shadow: 2px 7px 25px 5px rgba(7,7,38,1);
+    box-shadow: 2px 7px 25px 5px rgba(7,7,38,1);
+}
+/*NAVBAR END*/
