@@ -22,10 +22,6 @@ jQuery(function($){
         $(this).fadeTo('fast', 1);
     })
 
-    $('li').on('click', function(){
-      $(this).return("a")
-    });
-
     $('.drop-box').on('click', function(){
       count++;
 
